@@ -1,0 +1,41 @@
+.hrhr1{border:1px solid blueviolet}
+.d3NA{
+	margin-left:100px;
+	margin-right:100px;
+}
+.hrNA{
+	background-color:white;
+	width:300px;
+	font-size:40px;
+	font-weight:bold;
+	margin:-28px auto 10px;
+	text-align:center;
+	border:5px solid blueviolet;
+}
+.NA{
+	margin-left:150px;
+	margin-right:100px;
+}
+.itemNA{
+	border:2px solid blueviolet;
+	width:310px;
+	display:flex;
+	margin-top:10px;
+}
+.NA1{
+	width:150px;
+}
+.NA2 ul{
+	list-style:none;
+	display:flex;
+}
+.NA2 .l1{
+	font-size:25px;
+	font-weight:bold;
+}
+.NA2 .l2{
+	font-size:15px;
+	margin-top:9px;
+	font-weight:bold;
+	color:grey;
+}

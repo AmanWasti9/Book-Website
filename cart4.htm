@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="cart.css">
+	<link rel="stylesheet" href="Header.css">
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+
+<!--menu------->
+<div class="menu">
+<div class="menu-bar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Featured.htm">Featured</a></li>
+<li><a href="NewArrivals.htm">New Arrival</a></li>
+<li><a href="Review.htm">Review</a></li>
+<li><a href="blog.htm">Blog</a></li>
+<li><a href='#myFooter'>Contact</a></li>	
+</ul>
+</div>
+</div>
+
+<!--------->
+
+<br><br><br>
+<form name="f1" onsubmit="return cart()" action="checkout.htm"> 
+<!--Start------->
+<div class="d1">
+<div class="d2">
+<img src="pics/4.png">
+</div>
+<div class="d3">
+<br><br><br><br>
+<h1 class="h1">Botany</h1>
+<br><br>
+<p class="p2">Original Amout: $20.00</p>
+<br><br>
+<p class="p3">Discount: 25%</p>
+<br><br>
+<p class="p1">After Discount: $15.00</p>
+<br><br>
+<p class="p4">Qty:</p>
+
+<input type="number"  onclick="subtotal()" class="n1" id="number">
+<br><br>
+<p id="answer" class="p5"></p>
+<br>
+<p class="p6">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</p>
+<br><br>
+<input type="submit" value="Buy Now" class="a1">
+</div>
+</div>
+<!--End------->
+</form>
+
+
+
+
+<script>
+function subtotal(){
+var a=document.getElementById('number').value;
+document.getElementById('answer').innerHTML="Total: $" +a*15+".00";
+}
+</script>
+
+
+
+<script>
+function cart(){
+var b=document.getElementById('number').value;
+if(b=="")
+{
+alert("Enter the quantity!");
+return false;
+}
+}
+</script>
+
+
+<br><br><br>
+
+
+<!--FOOTER START-->
+
+
+<div id='myFooter' class="footer">
+<div class="footer1">
+<ul class="u1">
+<br><br><br>
+<h2 class="c1">OUR LOCATIONS</h2><br><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Pakistan</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> China</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Malaysia</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Japan</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Africa</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Germany</li><br>
+</ul>
+</div>
+
+<div class="footer2">
+<ul class="u1">
+<br><br><br>
+<h2 class="c1">QUICK LINKS</h2><br><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="index.html" class="z1"> Home</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="Featured.htm" class="z1"> Featured</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="NewArrivals.htm" class="z1"> New Arrival</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="Review.htm" class="z1"> Reviews</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="blog.htm" class="z1"> Blogs</a></li><br>
+</ul>
+</div>
+
+<div class="footer2">
+<ul class="u1">
+<br><br><br>
+<h2 class="c1">EXTRA LINKS</h2><br><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Account Info</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Ordered Items</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Privacy Policy</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Payment Method</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Our Services</a></li><br>
+</ul>
+</div>
+
+<div class="footer2">
+<ul class="u1">
+<br><br><br>
+<h2 class="c1">CONTACT INFO</h2><br><br>
+<li><i class="fa fa-phone" style="font-size:20px;color:blueviolet;"></i> 0333-xxxxxxx</li><br>
+<li><i class="fa fa-phone" style="font-size:20px;color:blueviolet;"></i> +111-xxx-xxxx</li><br>
+<li><i class="fa fa-envelope" style="font-size:20px;color:blueviolet;"></i> AmanWasti6@gmail.com</li><br>
+</ul>
+</div>
+
+</div>
+
+<br>
+
+
+<div class="footername">
+<hr class="footerhr">
+<ul>
+<li class="footerl1">Created By</li>
+<li class="footerl2">&nbsp;Syed Amanullah Wasti</li>
+<li class="footerl3">&nbsp;|&nbsp;All Right Reserved!</li>
+</ul>
+<hr class="footerhr">
+</div>
+
+<br>
+
+<!--FOOTER END-->
+
+
+
+</body>
+</html>
+
+

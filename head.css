@@ -1,0 +1,33 @@
+
+.menu-bar{
+	background:rgba(0,0,0,0.9);
+	text-align:center;
+
+
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:white;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-family:"Bahnschrift Condensed";
+	font-weight:bold;
+	margin-top:10px;
+}
+.act,.menu-bar ul li:hover{
+	background:blueviolet;
+	border-radius:3px;
+}
+.menu-bar a{
+	text-decoration:none;
+	color:white;
+}

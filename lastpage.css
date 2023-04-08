@@ -1,0 +1,30 @@
+.p1{
+	color:orange;
+	font-size:30px;
+	font-weight:bold;
+	margin-left:520px;
+}
+.p2{
+	font-size:20px;
+	font-weight:bold;
+	margin-left:570px;	
+}
+.p3{
+	font-size:20px;
+	margin-left:470px;
+	font-weight:bold;
+}
+.a1{
+	color:white;
+	background-color:blueviolet;
+	border:none;
+	font-size:25px;
+	font-weight:bold;
+	padding:15px 100px;
+	border-radius:6px;
+	text-decoration:none;	
+	margin-left:520px;	
+}
+.di img{
+	margin-left:200px;
+}

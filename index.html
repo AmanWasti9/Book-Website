@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY FIRST OWN WEBSITE</title>
+<link rel="stylesheet" type="text/css" href="f.css">
+
+<link rel="stylesheet" type="text/css" href="3.css">
+
+<link rel="stylesheet" type="text/css" href="pl.css">
+
+<link rel="stylesheet" type="text/css" href="5.css">
+
+<link rel="stylesheet" type="text/css" href="qw.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+
+
+<div class="d1">
+<div class="menu-bar">
+<ul>
+<li class="act"><a href="#">Home</a></li>
+<li><a href="Featured.htm">Featured</a></li>
+<li><a href="NewArrivals.htm">New Arrival</a></li>
+<li><a href="Review.htm">Review</a></li>
+<li><a href="blog.htm">Blog</a></li>
+<li><a href='#myFooter'>Contact</a></li>	
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1 class="h1" onmouseover="style.color='red'" onmouseout="style.color='white'"><u>DIGITAL BOOK STORE</u></h1>
+
+<p class="p1">Save Upto 75% off</p>
+<br><br><br>
+<p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt nostrum accusamus. Nam alias sit necessitatibus, aliquid ex minima at!</p>
+<br><br><br>
+<a href="#"  id="login-btn" class="join-btn">Join Now!</a>
+</div>
+</div>
+
+
+<!-- login form  -->
+
+<div class="login-form-container">
+	<div id="close-login-btn" class="fa fa-times-circle-o" style="font-size:60px;color:purple;"></div>
+	
+	
+		<form action="">
+			<center><i class="fa fa-user-circle-o" style="font-size:150px;color:purple;"></i></center>
+			<input type="text" name="" class="box" placeholder="Username" id="">
+			<input type="password" name="" class="box" placeholder="Password" id="">
+			<input type="password" name="" class="box" placeholder="Confirm Password" id="">
+			<input type="submit" value="Sign Up" class="btn">
+			<p>Already have an account? <a href="#">Sign In</a></p>
+		</form>
+	
+	</div>
+	
+	<script type="text/javascript">
+	let loginForm = document.querySelector('.login-form-container');
+	
+	document.querySelector('#login-btn').onclick = () =>{
+	  loginForm.classList.toggle('active');
+	}
+	
+	document.querySelector('#close-login-btn').onclick = () =>{
+	  loginForm.classList.remove('active');
+	}
+	</script>
+	
+	
+	
+	<br><br><br>
+	
+	
+	
+
+	
+	<div class="div1">
+	
+	<div class="ship">
+	<i class="fa fa-truck" style="font-size:90px;color:purple;"></i>
+	</div>
+	
+	<div class="ship1">
+	<h2 class="heading">Free Shipping</h2><br>
+	<p class="para">Order Over $100</p>
+	</div>
+	
+	
+	<div class="lock">
+	<i class="fa fa-lock" style="font-size:90px;color:purple;"></i>
+	</div>
+	
+	<div class="lock1">
+	<h2 class="heading">Secure Payment</h2><br>
+	<p class="para">100% Secure Payment</p>
+	</div>
+	
+	<div class="aero">
+	<i class="fa fa-repeat" style="font-size:90px;color:purple;"></i>
+	</div>
+	
+	<div class="aero1">
+	<h2 class="heading">Easy Returns</h2><br>
+	<p class="para">7 Days Returns</p>
+	</div>
+	
+	<div class="support">
+	<i class="fa fa-phone" style="font-size:90px;color:purple;"></i>
+	</div>
+	
+	<div class="support1">
+	<h2 class="heading">24/7 Support</h2><br>
+	<p class="para">Call Us Anytime</p>
+	</div>
+	
+	</div>
+	
+	
+	
+	
+	<br><br><br>
+	
+	
+	
+	
+	
+	
+	
+	<div class="d3" id="fg">
+	<br><br><br><br><br><br><br>
+	<hr class="hrhr2">
+	<p class="hr">Featured</p>
+	<br><br><br>
+	</div>
+	
+	
+	
+	
+	
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	
+	<div class="FA">
+	
+	<div class="owl-carousel owl-theme">
+	
+		<!--1-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/1.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--2-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/2.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--3-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/3.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--4-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/4.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--5-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/5.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--6-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/6.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--7-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/7.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--8-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/8.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--9-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/9.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--10-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/10.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--11-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/11.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Rabbed Cardigan</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--12-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/12.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Featured</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+		<!--13-------------------->	
+		<div class="item">
+		<div class="box">
+		<div class="slide-img">
+		<img src="pics/13.png">
+		<div class="overlay">
+		<a href="" class="buy-btn">Buy Now</a>
+		</div>
+		</div>
+		<div class="detail-box">
+		<div class="type">
+		<a href="">Featured</a>
+		<span>Featured</span>
+		</div>
+		<a href="" class="price">$23</a>
+		</div>
+		</div>
+		</div>
+		<!----------------------------->
+		
+	
+	
+	</div>
+	</div>
+	
+	
+	
+	
+	<script type="text/javascript">
+	
+	$('.owl-carousel').owlCarousel({
+		stagePadding: 50,
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	})
+	</script>
+	
+	
+	
+	<br><br>
+	
+	<!-- newsletter section starts -->
+	
+	<section class="newsletter">
+	
+		<form action="">
+			<h3>Subscribe for latest updates</h3>
+			<input type="email" name="" placeholder="Enter your email here..." id="" class="box">
+			<input type="submit" value="Subscribe" class="btn">
+		</form>
+	
+	</section>
+	
+	<!-- newsletter section ends -->
+	<br><br>
+	
+	
+	
+	
+	
+	<!-- new arrival start -->
+	
+	<div class="d3NA">
+	<br><br><br><br><br><br><br>
+	<hr class="hrhr1">
+	<p class="hrNA">NEW ARRIVAL</p>
+	<br><br><br>
+	</div>
+	
+	<div class="NA">
+	
+	<div class="owl-carousel owl-theme">
+	
+	
+	<!--1---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/1.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--2---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/2.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--3---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/3.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--4---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/4.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o"  style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--5---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/5.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--6---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/6.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	</div>
+	</div>
+	
+	
+	
+	
+	<div class="NA">
+	
+	<div class="owl-carousel owl-theme">
+	
+	
+	<!--1---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/1.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--2---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/2.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--3---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/3.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--4---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/4.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	</ul>
+	<br>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--5---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/5.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	<br>
+	</ul>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	<!--6---------------------->
+	<div class="itemNA">
+	<div class="NA1">
+	<img class= "i1"  src="pics/6.png">
+	</div>
+	<div class="NA2">
+	<br><br>
+	<h2>New Arrivals</h2>
+	<br>
+	<ul>
+	<li class="l1">$50</li>&nbsp;&nbsp;
+	<li class="l2"><del>$75</del></li>
+	<br>
+	</ul>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star" style="font-size:20px;color:blueviolet;"></i>
+	<i class="fa fa-star-half-o" style="font-size:20px;color:blueviolet;"></i>
+	</div>
+	</div>
+	<!------------------------>
+	
+	</div>
+	</div>
+	
+	
+	<script type="text/javascript">
+	var owl = $('.owl-carousel');
+	owl.owlCarousel({
+		items:4,
+		loop:true,
+		margin:10,
+		autoplay:true,
+		autoplayTimeout:1000,
+		autoplayHoverPause:true
+	});
+	$('.play').on('click',function(){
+		owl.trigger('play.owl.autoplay',[1000])
+	})
+	$('.stop').on('click',function(){
+		owl.trigger('stop.owl.autoplay')
+	})
+	
+	</script>
+	
+	<!-- new arrival end -->
+	
+	<br><br>
+	
+	<div class="divi1">
+	<img src="pics/deal-img.jpg">
+	</div>
+	
+	
+	
+	
+	<br><br>
+	
+	
+	<!--FOOTER START-->
+	
+	
+	<div id='myFooter'class="footer">
+	<div class="footer1">
+	<ul class="u1">
+	<br>
+	<h2 class="c1">OUR LOCATIONS</h2><br><br>
+	<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Pakistan</li><br>
+	<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> China</li><br>
+	<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Malaysia</li><br>
+	<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Japan</li><br>
+	<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Africa</li><br>
+	<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Germany</li><br>
+	</ul>
+	</div>
+	
+	<div class="footer2">
+	<ul class="u1">
+	<br>
+	<h2 class="c1">QUICK LINKS</h2><br><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Home</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="Featured.htm" class="z1"> Featured</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="NewArrivals.htm" class="z1"> New Arrival</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="Review.htm" class="z1"> Reviews</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="blog.htm" class="z1"> Blogs</a></li><br>
+	</ul>
+	</div>
+	
+	<div class="footer2">
+	<ul class="u1">
+	<br>
+	<h2 class="c1">EXTRA LINKS</h2><br><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Account Info</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Ordered Items</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Privacy Policy</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Payment Method</a></li><br>
+	<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Our Services</a></li><br>
+	</ul>
+	</div>
+	
+	<div class="footer2">
+	<ul class="u1">
+	<br>
+	<h2 class="c1">CONTACT INFO</h2><br><br>
+	<li><i class="fa fa-phone" style="font-size:20px;color:blueviolet;"></i> 0333-xxxxxxx</li><br>
+	<li><i class="fa fa-phone" style="font-size:20px;color:blueviolet;"></i> +111-xxx-xxxx</li><br>
+	<li><i class="fa fa-envelope" style="font-size:20px;color:blueviolet;"></i> AmanWasti6@gmail.com</li><br>
+	</ul>
+	</div>
+	
+	</div>
+	
+	<br>
+	
+	<br>
+	
+	<div class="footername">
+	<hr class="footerhr">
+	<br>
+	<ul>
+	<li class="footerl1">Created By</li>
+	<li class="footerl2">&nbsp;Syed Amanullah Wasti</li>
+	<li class="footerl3">&nbsp;|&nbsp;All Right Reserved!</li>
+	</ul>
+	<br>
+	<hr class="footerhr">
+	</div>
+	
+	<br>
+	
+	<!--FOOTER END-->
+	
+	
+
+
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="checkout.css">
+	<link rel="stylesheet" href="Header.css">
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+
+<!--menu------->
+<div class="menu">
+<div class="menu-bar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Featured.htm">Featured</a></li>
+<li><a href="NewArrivals.htm">New Arrival</a></li>
+<li><a href="Review.htm">Review</a></li>
+<li><a href="blog.htm">Blog</a></li>
+<li><a href='#myFooter'>Contact</a></li>	
+</ul>
+</div>
+</div>
+
+<!--------->
+
+<br><br><br>
+<form name="myform" action="lastpage.htm" onsubmit="return checkout()" >
+
+<br>
+<h3>Billing Address</h3>
+
+<p>Full Name</p>
+<input type="text" placeholder="Syed Amanullah Wasti"  class="i1" id="a">
+<br><br>
+
+<p>Email</p>
+<input type="email" placeholder="abc@example.com" class="i1" id="b">
+<br><br>
+
+<p>Address</p>
+<input type="text" placeholder="149B. 12th Street" class="i1" id="c">
+<br><br>
+
+<p>Country</p>
+<input type="text" placeholder="Country"  class="i1" id="d">
+<br><br>
+
+<p>City</p>
+<input type="text" placeholder="City" class="i1" id="e">
+<br><br>
+
+<p>Zip/Postal Code</p>
+<input type="text" placeholder="11001"  class="i1" id="f">
+<br><br><br><br>
+
+<h3>Payment Method</h3>
+<input type="radio"class="i2"><span>Payement By Card</span>
+<br><br>
+<h3>Accepted Cards<br>
+<i class="fa fa-cc-mastercard" style="color:red;font-size:30px;" id="id1"></i>
+<i class="fa fa-cc-visa"  style="color:navy;font-size:30px;" id="id2"></i>
+<i class="fa fa-cc-amex"  style="color:blue;font-size:30px;" id="id2"></i>
+<i class="fa fa-cc-discover"  style="color:orange;font-size:30px;" id="id2"></i>
+</h3>
+
+<p>Credit Card Number</p>
+<input type="text" placeholder="1111-2222-3333-4444" class="i1" id="g">
+<br><br>
+
+<p>Card Code</p>
+<input type="text" placeholder="CVV" class="i1" id="h">
+<br><br>
+
+
+<p>Expiry Date</p>
+<input type="date" class="i1" id="i">
+<br><br>
+
+<br><br>
+
+<input type="submit" class="bb1" value="Continue to Checkout">
+<br><br><br>
+
+</form>
+
+
+
+
+
+
+<script>
+
+function checkout(){
+var a=document.getElementById('a').value;
+var b=document.getElementById('b').value;
+var c=document.getElementById('c').value;
+var d=document.getElementById('d').value;
+var e=document.getElementById('e').value;
+var f=document.getElementById('f').value;
+var g=document.getElementById('g').value;
+var h=document.getElementById('h').value;
+var i=document.getElementById('i').value;
+
+
+if(a=="" || b=="" || c=="" || d=="" || e=="" || f=="" || g=="" || h=="" || i=="")
+{
+alert("Enter the Full Information!");
+return false;
+}
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<br><br><br>
+<br><br><br>
+
+
+<!--FOOTER START-->
+
+
+<div id='myFooter' class="footer">
+<div class="footer1">
+<ul class="u1">
+<br><br>
+<h2 class="c1">OUR LOCATIONS</h2><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Pakistan</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> China</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Malaysia</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Japan</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Africa</li><br>
+<li><i class="fa fa-map-marker" style="font-size:25px;color:blueviolet;"></i> Germany</li><br>
+</ul>
+</div>
+
+<div class="footer2">
+<ul class="u1">
+<br><br>
+<h2 class="c1">QUICK LINKS</h2><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="index.html" class="z1"> Home</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="Featured.htm" class="z1"> Featured</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="NewArrivals.htm" class="z1"> New Arrival</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="Review.htm" class="z1"> Reviews</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="blog.htm" class="z1"> Blogs</a></li><br>
+</ul>
+</div>
+
+<div class="footer2">
+<ul class="u1">
+<br><br>
+<h2 class="c1">EXTRA LINKS</h2><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Account Info</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Ordered Items</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Privacy Policy</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Payment Method</a></li><br>
+<li><i class="fa fa-arrow-right" style="font-size:20px;color:blueviolet;"></i><a href="#" class="z1"> Our Services</a></li><br>
+</ul>
+</div>
+
+<div class="footer2">
+<ul class="u1">
+<br><br>
+<h2 class="c1">CONTACT INFO</h2><br>
+<li><i class="fa fa-phone" style="font-size:20px;color:blueviolet;"></i> 0333-xxxxxxx</li><br>
+<li><i class="fa fa-phone" style="font-size:20px;color:blueviolet;"></i> +111-xxx-xxxx</li><br>
+<li><i class="fa fa-envelope" style="font-size:20px;color:blueviolet;"></i> AmanWasti6@gmail.com</li><br>
+</ul>
+</div>
+
+</div>
+
+<br>
+
+
+<div class="footername">
+<hr class="footerhr">
+<ul>
+<li class="footerl1">Created By</li>
+<li class="footerl2">&nbsp;Syed Amanullah Wasti</li>
+<li class="footerl3">&nbsp;|&nbsp;All Right Reserved!</li>
+</ul>
+<hr class="footerhr">
+</div>
+
+<br>
+
+<!--FOOTER END-->
+
+
+
+
+
+</body>
+</html>

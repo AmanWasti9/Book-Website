@@ -1,0 +1,89 @@
+
+.menu-bar{
+	background:rgba(0,0,0,0.5);
+	text-align:center;
+	height:100%;
+
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color:white;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-family:"Bahnschrift Condensed";
+	font-weight:bold;
+	margin-top:10px;
+}
+.act,.menu-bar ul li:hover{
+	background:rgba(0,0,0,0.9);
+	border-radius:3px;
+}
+.menu-bar a{
+	text-decoration:none;
+	color:white;
+}
+
+.footer{
+	background:rgba(0,0,0,0.8);
+	height:500px;
+	display:flex;
+}
+.footer1{
+	width:25%;
+	height:400px;
+	margin-top:20px;
+	margin-left:100px;
+}
+.footer2{
+	width:25%;
+	height:400px;
+	margin-top:20px;
+}
+
+.c1{
+	font-size:25px;
+	font-weight:bold;
+	color:white;
+}
+.u1{
+	list-style:none;
+	color:white;
+	font-size:20px;
+}
+.z1{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+
+
+.footerhr{
+	border:3px groove blueviolet;
+	margin-left:550px;
+	margin-right:670px;
+}
+.footername ul{
+	display:flex;
+	list-style:none;
+}
+.footerl1{
+	margin-left:550px;
+	font-size:25px;
+}
+.footerl2{
+	color:blueviolet;
+	font-weight:bold;
+	font-size:25px;
+}
+.footerl3{
+	font-size:25px;
+}

@@ -1,0 +1,58 @@
+
+.footer{
+	background:rgba(0,0,0,0.9);
+	height:500px;
+	display:flex;
+}
+.footer1{
+	width:25%;
+	height:400px;
+	margin-top:20px;
+	margin-left:100px;
+}
+.footer2{
+	width:25%;
+	height:400px;
+	margin-top:20px;
+}
+
+.c1{
+	font-size:25px;
+	font-weight:bold;
+	color:white;
+}
+.u1{
+	list-style:none;
+	color:white;
+	font-size:20px;
+}
+.z1{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+
+
+.footerhr{
+	border:3px groove blueviolet;
+	margin-left:30%;
+	margin-right:31%;
+}
+.footername ul{
+	text-align:center;
+	display:flex;
+	list-style:none;
+}
+.footerl1{
+	margin-left:450px;
+	font-size:25px;
+}
+.footerl2{
+	color:blueviolet;
+	font-weight:bold;
+	font-size:25px;
+	font-family:Baskerville Old Face;
+}
+.footerl3{
+	font-size:25px;
+}
